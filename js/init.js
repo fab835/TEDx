@@ -2,6 +2,7 @@
   $(function(){
 
     $('.button-collapse').sideNav();
+    $('.collapsible').collapsible();
     $('.parallax').parallax();   
     $('.modal').modal();
     $('ul.tabs').tabs();
