@@ -1,6 +1,6 @@
 (function($){
   $(function(){
-
+    $('.scrollspy').scrollSpy();
     $('.button-collapse').sideNav();
     $('.collapsible').collapsible();
     $('.parallax').parallax();   

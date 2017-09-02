@@ -8,6 +8,10 @@
  main {
      flex: 1 0 auto;
  }
+ .section{
+  margin: 0;
+  padding: 0;
+ }
 
    .escurecer_azul{
       background: linear-gradient( rgba(1, 23 , 67, 0.60), rgba(1, 23 , 67, 0.60) ),url(../img/coolchineseguy.jpg);
