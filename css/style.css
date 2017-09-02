@@ -136,7 +136,9 @@
 }
 
 
-.navbar-ted{
+.navbar-ted ul a:focus{
+  color: #fff;
+  background: #ff2b06;
   
 }
 .navbar-ted nav{
