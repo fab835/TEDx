@@ -167,6 +167,7 @@ html, body, .block {
 }
 
 .title-block{
+  padding: 1px;
   margin-bottom: -30px;
   z-index: 10;
 }
