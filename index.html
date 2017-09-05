@@ -16,6 +16,7 @@
    <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
+
 <body class="grey lighten-2">
     
   <header>
@@ -706,6 +707,7 @@
       <a class="btn-floating btn-large waves-effect waves-light white" href="https://www.instagram.com/tedxcesupa" target="_blank"><i class="fa fa-instagram blue-text text-darken-3"></i></a>
       <a class="btn-floating btn-large waves-effect waves-light white" href="https://play.google.com/store/apps/details?id=geta.tedxcesupacoexistir" target="_blank"><i class="fa fa-android light-green-text text-accent-3"></i></a>
    </div>
+
   </main>
     
 
@@ -765,6 +767,23 @@
     });
   </script>
 
+  <!-- WhatsHelp.io widget -->
+  <script type="text/javascript">
+      (function () {
+          var options = {
+              facebook: "788474057920965", // Facebook page ID
+              company_logo_url: "//scontent.xx.fbcdn.net/v/t1.0-1/p80x80/7504_798899586878412_8895205023834954429_n.jpg?oh=b72c5a9fb156baac7dab376ade556d65&oe=5A1D9031", // URL of company logo (png, jpg, gif)
+              greeting_message: "Dúvidas? Entre em contato.", // Text of greeting message
+              call_to_action: "Entre em contato", // Call to action
+              position: "left", // Position may be 'right' or 'left'
+          };
+          var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+          var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+          s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+          var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+      })();
+  </script>
+  <!-- /WhatsHelp.io widget -->
 
 </body>
 </html>

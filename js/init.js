@@ -7,10 +7,6 @@
     $('.modal').modal();
     $('ul.tabs').tabs();
     $('.slider').slider();
-    $('.carousel').carousel({
-        padding: 200    
-	});
-	autoplay().delay(4500);
 
     $('.target').pushpin({
       top: 0,
